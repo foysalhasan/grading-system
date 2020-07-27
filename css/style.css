@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&family=Titillium+Web:wght@300;400;600;700;900&display=swap');
+body {
+  font-family: 'Titillium Web', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Oswald', sans-serif;
+}
+/*# sourceMappingURL=style.css.map */
+.my-text {
+  font-size: 22px;
+  font-weight: 700;
+  color: dodgerblue;
+}
+
+.my-other {
+  background-color: #010507;
+  padding: 10px;
+}

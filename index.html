@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- ?Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+  
+    <!-- ?Bootstrap Css -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <!-- ?Bootstrap Css -->
+
+    <!-- ?Default Css -->
+    <link rel="stylesheet" href="css/default.css" />
+    <!-- ?Default Css -->
+
+    <!-- ?Custom Css -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- ?Custom Css -->
+
+    <title>STARTER TEMPLATE | F.H. SAGOR</title>
+  </head>
+
+  <body class="text-center fs-24 text-danger">
+    <!-- ?Start From Here -->
+
+    <div class="w-60 mx-auto my-20 pure-dark px-3 text-center text-white fs-18 rounded py-50" id="test">
+       Input Your Total Number and Check Your Grade
+    </div>
+    <button class="btn btn-danger" id="mBtn">Check</button> <br>
+    
+
+    <!-- * JavaScript Code *-->
+    <script>
+    
+      var btn = document.getElementById("mBtn");
+      btn.addEventListener('click', function(){
+        var grade = prompt("Enter Your Number");
+        if(grade>=80 && grade<=100){
+          alert("WOW! You Got A+");
+        }else if (grade>=70 && grade<80){
+          alert("You Got A");
+        }else if (grade>=60 && grade<70){
+          alert("You Got A-");
+        }else if (grade>=50 && grade<60){
+          alert("You Got B");
+        }else if (grade>=40 && grade<50){
+          alert("You Got C");
+        }else if (grade>=33 && grade<40){
+          alert("You Just Passed !");
+        }else if (grade<33){
+          alert("You Have Failed");
+        }else{
+          alert("Please Enter Valid Number");
+        }
+
+      });
+
+
+
+
+
+
+
+    </script>
+  </body>
+</html>
